@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{87CF7B64-EE82-40BE-813A-6660ACEFBFC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{16EB538F-0F9B-47A0-BC04-5B8D3E0DCB4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.Models", "Chinook.Models\Chinook.Models.csproj", "{D64343FA-BBBD-4C92-8FAF-4C04B1BA1BA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.Repositories", "Chinook.Repositories\Chinook.Repositories.csproj", "{C55B6D1D-1AD1-440D-900B-0D12725D352D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.Repositories.Dapper", "Chinook.Repositories.Dapper\Chinook.Repositories.Dapper.csproj", "{441C9C11-089A-4221-81B7-497AF0B6042A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.UnitOfWork", "Chinook.UnitOfWork\Chinook.UnitOfWork.csproj", "{F299B91F-C150-44BB-940E-BF684EB11A81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinook.WebApi", "Chinook.WebApi\Chinook.WebApi.csproj", "{D8DB5DFD-4042-418D-B30D-0624E0720E08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D64343FA-BBBD-4C92-8FAF-4C04B1BA1BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64343FA-BBBD-4C92-8FAF-4C04B1BA1BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64343FA-BBBD-4C92-8FAF-4C04B1BA1BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64343FA-BBBD-4C92-8FAF-4C04B1BA1BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C55B6D1D-1AD1-440D-900B-0D12725D352D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55B6D1D-1AD1-440D-900B-0D12725D352D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55B6D1D-1AD1-440D-900B-0D12725D352D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55B6D1D-1AD1-440D-900B-0D12725D352D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441C9C11-089A-4221-81B7-497AF0B6042A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441C9C11-089A-4221-81B7-497AF0B6042A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441C9C11-089A-4221-81B7-497AF0B6042A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441C9C11-089A-4221-81B7-497AF0B6042A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F299B91F-C150-44BB-940E-BF684EB11A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F299B91F-C150-44BB-940E-BF684EB11A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F299B91F-C150-44BB-940E-BF684EB11A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F299B91F-C150-44BB-940E-BF684EB11A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8DB5DFD-4042-418D-B30D-0624E0720E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DB5DFD-4042-418D-B30D-0624E0720E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DB5DFD-4042-418D-B30D-0624E0720E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DB5DFD-4042-418D-B30D-0624E0720E08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D64343FA-BBBD-4C92-8FAF-4C04B1BA1BA6} = {87CF7B64-EE82-40BE-813A-6660ACEFBFC6}
+		{C55B6D1D-1AD1-440D-900B-0D12725D352D} = {87CF7B64-EE82-40BE-813A-6660ACEFBFC6}
+		{441C9C11-089A-4221-81B7-497AF0B6042A} = {87CF7B64-EE82-40BE-813A-6660ACEFBFC6}
+		{F299B91F-C150-44BB-940E-BF684EB11A81} = {87CF7B64-EE82-40BE-813A-6660ACEFBFC6}
+		{D8DB5DFD-4042-418D-B30D-0624E0720E08} = {16EB538F-0F9B-47A0-BC04-5B8D3E0DCB4E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {376238CD-171E-40C7-8E3F-A35358F101BE}
+	EndGlobalSection
+EndGlobal
